@@ -1,0 +1,135 @@
+/*====================================================
+-------------- Accordion Reset ----------------------
+=====================================================*/
+.afwp-accordion{
+    .afwp-accordion-list{
+        padding: 0;
+        margin: 0 0 30px;
+        list-style:none !important;
+        overflow: hidden;
+    }
+    .afwp-accordion-item-wrap{
+        line-height:0;
+        &>*, .afwp-accordion-title, .afwp-content{
+            line-height:1.6em;
+        }
+    }
+
+    .afwp-toggle-icon{
+        &:before{
+            line-height:35px;
+        }
+    }
+
+    .afwp-content-wraper {
+        padding: 10px;
+    }
+
+    .afwp-accordion-title{
+        display: block;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .afwp-content{
+        display:none;
+        overflow: hidden;
+    }
+
+    &.vertical{
+
+        .afwp-content.current{
+            display:block;
+        }
+
+        .afwp-accordion-title{
+            padding: 10px 40px 10px 10px;
+        }
+
+    }
+
+    &.horizontal{
+        overflow: hidden;
+        height: auto;
+        .afwp-toggle-icon{
+            left:0;
+            width:100%;
+            height:30px;
+            border-left:none;
+            border-bottom:1px solid #dedede;
+            &:before{
+                padding: 0 4px;
+                line-height: 30px;
+            }
+        }
+        ul{
+            li{
+                float: left;
+                margin: 0 1px 1px 0;
+                padding: 0px;
+            }
+        }
+        .afwp-accordion-title{
+            height: auto;
+            padding:0;
+            float: left;
+            width:initial;
+            overflow:hidden;
+            span{
+                width:35px;
+                display:block;
+                padding:10px 5px;
+                writing-mode: tb-rl;
+                -webkit-writing-mode: tb-rl;
+                -moz-writing-mode: tb-rl;
+                -ms-writing-mode: tb-rl;
+                -o-writing-mode: tb-rl;
+                -ms-writing-mode: tb-rl;
+            }
+        }
+        .afwp-content{
+            display:none;
+            width: 0px;
+            border-left: 0;
+            &.current{
+                display: inline-block; /* Makes its work in FF */
+            }
+        }
+        .afwp-accordion-title,
+        .afwp-content{
+            transition:height 1s ease-out;
+        }
+    }
+}
+
+.afwp-accordion-list{
+    padding:0;
+    margin:0;
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.afwp-toggle-icon{
+    height: 100%;
+    width: 35px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: inherit;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    cursor:pointer;
+    max-height: 40px;
+    border-left: 1px solid #dedede;
+}
+
+
+body .afwp-toggle-icon{
+    font-size: 16px;
+}

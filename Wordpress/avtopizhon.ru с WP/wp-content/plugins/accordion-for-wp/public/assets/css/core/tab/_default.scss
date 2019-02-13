@@ -1,0 +1,15 @@
+/*====================================================
+------------------- Tab Default ----------------------
+=====================================================*/
+
+.afwp-tab-template{
+    &.afwp-tab-default{
+        .afwp-tab-title{
+            color:$white_color;
+            background:$primary_color;
+            &.current{
+                background:$secondary_color;
+            }
+        }
+    }
+}

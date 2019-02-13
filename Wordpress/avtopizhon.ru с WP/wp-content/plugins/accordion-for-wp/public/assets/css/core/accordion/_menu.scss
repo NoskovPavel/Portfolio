@@ -1,0 +1,121 @@
+/*====================================================
+-------------- Accordion Menu ----------------------
+=====================================================*/
+.afwp_accordion_nav_menu{
+    .menu-item{
+        margin:0;
+        padding:0px;
+        position: relative;
+        border-top:1px solid #dedede;
+        a{
+            margin: 0;
+            display: block;
+            line-height: 1.4em;
+            cursor: pointer;
+            box-shadow: none;
+            padding: 10px 0 10px 15px;
+            &:hover{
+                text-decoration:none;
+                box-shadow: none;
+            }
+        }
+        &>ul, ul{
+            margin:0;
+            list-style:none;
+            padding-left:0 !important;
+        }
+        &>a{
+            padding-left:15px;
+        }
+        .menu-item{
+            &>a{
+                padding-left:30px;
+            }
+            .menu-item{
+                &>a{
+                    padding-left:45px;
+                }
+                .menu-item{
+                    &>a{
+                        padding-left:60px;
+                    }
+                    .menu-item{
+                        &>a{
+                            padding-left:75px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .menu-item-has-children{
+        position:relative;
+        &>ul{
+            display:none;
+            &>li{
+                &>a{
+                    padding-left:10px;
+                }
+            }
+        }
+        &>a{
+            padding-right:35px;
+        }
+    }
+
+    .afwp-default{
+        .afwp-toggle-icon{
+            color:$white_color;
+            border-left: 1px solid $white_color;
+        }
+        .menu-item{
+            border-top:1px solid $white_color;
+            a{
+                color: $white_color;
+                background: $primary_color;
+                &:hover{
+                    color:$white_color;
+                    background:$secondary_color;
+                }
+            }
+        }
+
+        .current-menu-item{
+            &>a{
+                color:$white_color;
+                background: $secondary_color;
+            }
+        }
+    }
+    .afwp-template-1{
+        .afwp-toggle-icon{
+            color:$white_color;
+            border-left: 1px solid $white_color;
+        }
+        .menu-item{
+            border-top:1px solid $white_color;
+            a{
+                color: $white_color;
+                background: #16a085;
+                &:hover{
+                    color:$white_color;
+                    background:rgb(9, 160, 108);
+                }
+            }
+        }
+        .current-menu-item{
+            &>a{
+                color:$white_color;
+                background:rgb(9, 160, 108);
+            }
+        }
+    }
+
+    .afwp-theme-default{
+        .afwp-accordion-list{
+            border-bottom:1px solid #dedede;
+        }
+    }
+    
+}

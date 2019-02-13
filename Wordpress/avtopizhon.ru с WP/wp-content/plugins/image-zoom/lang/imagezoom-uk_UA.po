@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-03-24T10:21:49+00:00\n"
+"Last-Translator: IlliaLavrenko <ilavr.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: Ukraine\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Тема 01"
+
+msgid "Theme 02"
+msgstr "Тема 02"
+
+msgid "Theme 03"
+msgstr "Тема 03"
+
+msgid "Theme 04"
+msgstr "Тема 03"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Ваша тема містить (тобто в файлі %s) жорстке посилання на JQuery JavaScript Library."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "Це посилання може порушити плагін. Так, якщо плагін не працює, будь ласка, видаліть це посилання або перемістити його відразу після оголошення %s."
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Розміри для збільшеного зображення"
+
+msgid "Max width:"
+msgstr "Максимальна ширина:"
+
+msgid "Max height:"
+msgstr "Максимальна висота:"
+
+msgid "Do you want to clip to browser size:"
+msgstr "Обрізати за розмірами браузера:"
+
+msgid "Do you want other width/height for mobile terminals?"
+msgstr "Ви хочете задати інші розміри для мобільних пристроїв?"
+
+msgid "Max width for mobile:"
+msgstr "Максимальна ширина для мобільних пристроїв:"
+
+msgid "Max height for mobile:"
+msgstr "Максимальна висота для мобільних пристроїв:"
+
+msgid "What is the text for the frontend?"
+msgstr "Текст для інтерфейсу (кнопок)"
+
+msgid "Previous:"
+msgstr "Попередня:"
+
+msgid "Next:"
+msgstr "Наступна:"
+
+msgid "Close:"
+msgstr "Закрити:"
+
+msgid "Play:"
+msgstr "Програти:"
+
+msgid "Pause:"
+msgstr "Пауза:"
+
+msgid "The image counter:"
+msgstr "Лічильник зображень:"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "Введене значення %s буде замінюватися індексом зображення. %s загальна кількість зображень на сторінці."
+
+msgid "What is the theme?"
+msgstr "Яка тема?"
+
+msgid "Choose the theme:"
+msgstr "Виберіть тему:"
+
+msgid "Theme 01 is : %s."
+msgstr "Тема 01: %s"
+
+msgid "Theme 02 is : %s."
+msgstr "Тема 02: %s"
+
+msgid "Theme 03 is : %s."
+msgstr "Тема 03: %s"
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "Тема 04: %s (автор %s)."
+
+msgid "Additional CSS you want to add:"
+msgstr "Додаткові стилі CSS"
+
+msgid "If you want to modify sligthly the CSS, you can modify it here."
+msgstr "Якщо ви хочете злегка модифікувати CSS, ви можете зробити це тут."
+
+msgid "Show description text"
+msgstr "Показувати опис"
+
+msgid "Show the title of the image:"
+msgstr "Показувати заголовок зображення:"
+
+msgid "Show the alternative text of the image:"
+msgstr "Показувати текст тега Alt для зображень:"
+
+msgid "What are the other parameters?"
+msgstr "Які інші параметри?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Час перегортання при слайд-шоу:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Автозапуск слайд-шоу:"
+
+msgid "The opacity of the background:"
+msgstr "Прозорість фону:"
+
+msgid "Advanced parameters?"
+msgstr "Показати більше параметрів?"
+
+msgid "Disable the navigation buttons on images:"
+msgstr "Вимкнути кнопки навігації на зображеннях:"
+
+msgid "Disable click on the image for next (it will then close the slideshow):"
+msgstr "Вимкнути перехід до наступного зображення при натисканні (якщо активовано, то слайд-шоу при натисканні буде закритий)"
+
+msgid "Disable the slideshow buttons on images:"
+msgstr "Вимкнути кнопки управління слайд-шоу:"
+
+msgid "List of page exclusions (regular expressions):"
+msgstr "Список сторінок винятків (регулярні вирази):"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "Наприклад, ви можете виключити сторінку з URL, що містить %s, запровадивши в рядок слово %s. Будь ласка, додавайте по одному регулярному виразу на рядок"
+
+msgid "You may also exclude this same page by setting this option to %s"
+msgstr "Ви також можете виключити цю сторінку, використовуючи значення %s"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "Крім того, ви можете використовувати такі рядки %s і %s для виключення стартової сторінки"
+
+msgid "Disable if the user uses mobile terminal:"
+msgstr "Відключити, якщо користувач використовує мобільний термінал:"
+
+msgid "Parameters"
+msgstr "Параметри"
+
+msgid "This plugin allows a dynamic zoom on the images."
+msgstr "Цей плагін додає динамічне збільшення на зображення."
+
+msgid "All images in your pages/posts like %s will be zoomable."
+msgstr "Всі зображення ваших сторінок / повідомлень з %s будуть з масштабуванням."
+
+msgid "Purpose of that plugin"
+msgstr "Мета цього плагіна"
+
+msgid "If you want to exclude one specific image, please modify the HTML code so that this image is like that: %s or %s."
+msgstr "Якщо ви хочете виключити одне зображення, будь ласка, змініть HTML код так, щоб це зображення містило: %s або %s."
+
+msgid "Exclude an image"
+msgstr "Виключити зображення"
+
+msgid "If you want to exclude one specific page, please use the advanced option in the configuration tab"
+msgstr "Якщо ви хочете виключити конкретну сторінку, будь ласка, скористайтеся розширеною опцією у вкладці конфігурації"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to portfolio. Please add one regular expressions by line."
+msgstr "Наприклад, ви можете виключити сторінку з URL, що збігається з %s, використовуючи слово portfolio. Будь ласка, додавайте по одному регулярному виразу на рядок."
+
+msgid "You may also exclude this same page by setting this option to %s."
+msgstr "Ви також можете виключити цю сторінку, використовуючи значення %s."
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page."
+msgstr "Крім того, ви можете використовувати такі рядки %s і %s для виключення стартовою."
+
+msgid "Exclude a page"
+msgstr "Виключити сторінку"
+
+msgid "One of the most probable reason that the plugin does not work is that there is a conflict with your theme of one of your plugins."
+msgstr "Якщо плагін не працює, то швидше за все є конфлікт з іншим плагіном, що використовується в вашій темі."
+
+msgid "Before contacting me, please test deactivating each plugin one by one to see if it solve the problem and change the theme by the default one."
+msgstr "Перш ніж зв&#039;язуватися зі мною, будь ласка, спробуйте протестувати кожен плагін, деактивувавши їх один за іншим, щоб побачити який плагін створює проблему."
+
+msgid "Indeed, most of the time the %s library is not loaded correctly."
+msgstr "Насправді, в більшості випадків %s просто некоректно завантажується."
+
+msgid "I cannot give you a simple way to correct it!"
+msgstr "Я не можу дати вам простий спосіб виправити це!"
+
+msgid "The plugin does not work"
+msgstr "Плагін не працьє"
+
+msgid "How To"
+msgstr "Як"
+
+msgid "Manage translations"
+msgstr "Керування перекладом"
+
+msgid "Give feedback"
+msgstr "Зворотній звязок"
+
+msgid "Other plugins"
+msgstr "Інші плагіни"
+

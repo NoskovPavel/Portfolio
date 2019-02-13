@@ -1,0 +1,30 @@
+html, body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery{
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+	overflow: hidden;
+}
+.gallery .buttons {
+	margin-top: 20px;
+}
+
+.gallery .photos{
+    position: relative;
+    height: 300px;
+}
+
+.gallery .photos img{
+    position: absolute;
+    width: 0;
+	left: 0;
+    transition: opacity 1s;
+}
+
+.gallery .photos img.showed{
+     width: 100%;
+}

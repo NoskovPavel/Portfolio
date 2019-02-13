@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-08T08:47:15+00:00\n"
+"Last-Translator: SedLex <http://www.sedlex.fr/>\n"
+"Last-Translator: Khco <khacdao.tk>\n"
+"Last-Translator: LinhHuong <http://www.adsraovat.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Vietnamese\n"
+"X-Poedit-Country: Viet Nam\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Chủ đề 01"
+
+msgid "Theme 02"
+msgstr "Chủ đề 02"
+
+msgid "Theme 03"
+msgstr "Chủ đề 03"
+
+msgid "Theme 04"
+msgstr "Chủ đề 04"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Chủ đề của bạn có chứa (tức là trong tập tin %s ) một tài liệu tham khảo với jQuery thư viện javascript."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "tài liệu tham khảo này có thể phá vỡ các plugin. Vì vậy, nếu các plugin không hoạt động, vui lòng xóa tài liệu này hoặc di chuyển nó sau khi khai báo các %s."
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Cắt bớt kích thước của hình ảnh thu nhỏ là gì?"
+
+msgid "Max width:"
+msgstr "Độ rộng tối đa:"
+
+msgid "Max height:"
+msgstr "Max chiều cao:"
+
+msgid "Do you want to clip to browser size:"
+msgstr "Bạn có muốn bằng với kích thước màn hình của bạn không:"
+
+msgid "Do you want other width/height for mobile terminals?"
+msgstr "Bạn có muốn chiều rộng /chiều cao khác cho thiết bị di động không?"
+
+msgid "Max width for mobile:"
+msgstr "chiều rộng nhất cho điện thoại di động :"
+
+msgid "Max height for mobile:"
+msgstr "độ cao nhất cho điện thoại di động :"
+
+msgid "What is the text for the frontend?"
+msgstr "Văn bản phía trước cho giao diện là gì ?"
+
+msgid "Previous:"
+msgstr "trước đó"
+
+msgid "Next:"
+msgstr "kế tiếp"
+
+msgid "Close:"
+msgstr "Đóng"
+
+msgid "Play:"
+msgstr "Chạy / hoạt động"
+
+msgid "Pause:"
+msgstr "Dừng"
+
+msgid "The image counter:"
+msgstr "Hình ảnh cập nhật"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "%s sẽ được thay thế với mục lục của hình ảnh và %s với tổng số các hình ảnh trong trang."
+
+msgid "What is the theme?"
+msgstr "Chủ đề là gì?"
+
+msgid "Choose the theme:"
+msgstr "Chọn chủ đề:"
+
+msgid "Theme 01 is : %s."
+msgstr "chủ đề 01 là: %s ."
+
+msgid "Theme 02 is : %s."
+msgstr "chủ đề 02 là: %s ."
+
+msgid "Theme 03 is : %s."
+msgstr "chủ đề 03 là: %s ."
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "chủ đề 04 : %s (được tạo ra bởi %s )."
+
+msgid "Additional CSS you want to add:"
+msgstr "bạn muốn bổ sungThêm CSS vào :"
+
+msgid "If you want to modify sligthly the CSS, you can modify it here."
+msgstr "Nếu bạn muốn thay đổi chút xíu CSS , bạn có thể sửa đổi nó ở đây ."
+
+msgid "Show description text"
+msgstr "Hiển thị các ghi chú"
+
+msgid "Show the title of the image:"
+msgstr "Hiển thị tiêu đề của hình ảnh:"
+
+msgid "Show the alternative text of the image:"
+msgstr "Hiển thị các văn bản thay thế của hình ảnh:"
+
+msgid "What are the other parameters?"
+msgstr "Các thông số khác"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Chuyển đổi thời hạn nếu các trình chiếu hình tự động là :"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Tự động khởi động chiếu hình khi mở lên:"
+
+msgid "The opacity of the background:"
+msgstr "Độ mờ đục của nền:"
+
+msgid "Advanced parameters?"
+msgstr "Các thông số nâng cao?"
+
+msgid "Disable the navigation buttons on images:"
+msgstr "Vô hiệu hóa các nút điều khiển trên hình ảnh :"
+
+msgid "Disable click on the image for next (it will then close the slideshow):"
+msgstr "Vô hiệu hóa nhấp chuột vào hình ảnh kế tiếp (nếu nhấp vào thì nó sẽ đóng trình chiếu):"
+
+msgid "Disable the slideshow buttons on images:"
+msgstr "Vô hiệu hóa các nút điều chỉnh hình ảnh :"
+
+msgid "List of page exclusions (regular expressions):"
+msgstr "Danh sách loại trừ trang (các biểu hiện thông thường):"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "Ví dụ, trường hợp bạn có thể loại bỏ URL với trang web %s bằng cách cài đặt tùy chọn này đến %s . Xin vui lòng thêm một biểu hiện thông thường của dòng"
+
+msgid "You may also exclude this same page by setting this option to %s"
+msgstr "Bạn cũng có thể loại trừ cùng trang này bằng cách cài đặt tùy chọn này để %s"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "Ngoài ra, bạn có thể thiết lập tùy chọn này đến %s đến %s và để loại trừ trang chủ"
+
+msgid "Disable if the user uses mobile terminal:"
+msgstr "Vô hiệu hóa nếu người ta dùng sử dụng thiết bị di động:"
+
+msgid "Parameters"
+msgstr "Tham số"
+
+msgid "This plugin allows a dynamic zoom on the images."
+msgstr ""
+
+msgid "All images in your pages/posts like %s will be zoomable."
+msgstr ""
+
+msgid "Purpose of that plugin"
+msgstr ""
+
+msgid "If you want to exclude one specific image, please modify the HTML code so that this image is like that: %s or %s."
+msgstr ""
+
+msgid "Exclude an image"
+msgstr ""
+
+msgid "If you want to exclude one specific page, please use the advanced option in the configuration tab"
+msgstr ""
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to portfolio. Please add one regular expressions by line."
+msgstr ""
+
+msgid "You may also exclude this same page by setting this option to %s."
+msgstr ""
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page."
+msgstr ""
+
+msgid "Exclude a page"
+msgstr ""
+
+msgid "One of the most probable reason that the plugin does not work is that there is a conflict with your theme of one of your plugins."
+msgstr ""
+
+msgid "Before contacting me, please test deactivating each plugin one by one to see if it solve the problem and change the theme by the default one."
+msgstr ""
+
+msgid "Indeed, most of the time the %s library is not loaded correctly."
+msgstr ""
+
+msgid "I cannot give you a simple way to correct it!"
+msgstr ""
+
+msgid "The plugin does not work"
+msgstr ""
+
+msgid "How To"
+msgstr ""
+
+msgid "Manage translations"
+msgstr "Quản lý dịch"
+
+msgid "Give feedback"
+msgstr "Đưa ra phản hồi"
+
+msgid "Other plugins"
+msgstr "Các plugin"
+

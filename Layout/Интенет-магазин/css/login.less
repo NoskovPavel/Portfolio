@@ -1,0 +1,66 @@
+@font-face{
+	font-family: Chelsea-Market;
+	src: url(../fonts/chelsea-market/ChelseaMarket-Regular.ttf);
+}
+
+@font-face{
+	font-family: Telegrafico;
+	src: url(../fonts/Telegrafico-regular/Telegrafico-regular.ttf);
+}
+
+
+@font-face{
+	font-family: Geneva;
+	src: url(../fonts/Geneva/Geneva.ttf);
+}
+
+@font-face{
+	font-family: Miriad;
+	src: url(../fonts/Miriad/MiriadPro.ttf);
+}
+
+
+
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header {
+    .header_top{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6633+1,ff3333+100 */
+        background: #ff6633; /* Old browsers */
+        background: -moz-linear-gradient(top,  #ff6633 1%, #ff3333 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #ff6633 1%,#ff3333 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #ff6633 1%,#ff3333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6633', endColorstr='#ff3333',GradientType=0 ); /* IE6-9 */
+        min-height: 80px;
+    }
+    .header_top-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+    }
+}

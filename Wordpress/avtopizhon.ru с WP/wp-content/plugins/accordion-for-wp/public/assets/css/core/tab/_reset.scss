@@ -1,0 +1,93 @@
+/*====================================================
+------------- Tab Reset ----------------
+=====================================================*/
+
+.afwp-tab-template{
+
+    .afwp-tab{
+        overflow:hidden;
+        margin-bottom:30px;
+    }
+
+    .afwp-tab-list{
+        padding:0;
+        margin:0;
+        list-style: none;
+        background: #f2f2f2;
+        &:after{
+            content:"";
+            display:block;
+            width:100%;
+            clear:both;
+        }
+    }
+
+    .afwp-tab-item-wrap{
+            margin:0 3px 3px 0;
+        }
+
+    .afwp-tab-content{
+        display:none;
+        padding:10px;
+        border: 1px solid #e1e1e1;
+        &.current{
+            display:block;
+        }
+    }
+
+    .afwp-tab-title{
+        margin:0;
+        color:inherit;
+        cursor:pointer;
+        display: block;
+        position:relative;
+        line-height:1.4em;
+        border: 1px solid #e1e1e1;
+        .afwp-tab-icon{
+            padding:10px;
+            margin-right:-15px;
+        }
+        .afwp-post-link{
+            color:inherit;
+            padding:10px;
+            display:inline-block;
+        }
+        &:after{
+            display:none;
+        }
+        &.current, &:hover{
+            background: #e1e1e1;
+
+        }
+    }
+
+     .horizontal{
+         &:after{
+            content:"";
+            display: block;
+            clear:both;
+        }
+        .afwp-tab-list{
+            width:40%;
+            float:left;
+        }
+        .afwp-tab-content-wraper{
+            width:60%;
+            float:left;
+        }
+    }
+
+    .vertical{
+        
+        .afwp-tab-title{
+            border-right:1px solid #f2f2f2;
+        }
+        .afwp-tab-item-wrap{
+            float:left;
+        }
+        .afwp-tab-list{
+            width:100%;
+        }
+    }
+    
+}

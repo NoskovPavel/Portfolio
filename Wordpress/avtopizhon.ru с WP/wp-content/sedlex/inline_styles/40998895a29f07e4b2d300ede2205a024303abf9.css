@@ -1,0 +1,25 @@
+.gallery_colorbox {}
+#cboxOverlay{}
+#colorbox{}
+#cboxContent{}
+.cboxIframe{}
+#cboxError{}
+#cboxLoadedContent{}
+#cboxTitle{}
+#cboxTitle h2{}
+#cboxCurrent{}
+#cboxLoadingGraphic{}
+#cboxLoadingOverlay{}
+#cboxLoadingGraphic{}
+#cboxLoadedContent{}
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {}
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {}
+#cboxPrevious{}
+#cboxPrevious:hover{}
+#cboxNext{}
+#cboxClose{}
+#cboxClose:hover{}
+.cboxSlideshow_off #cboxSlideshow{}
+.cboxSlideshow_off #cboxSlideshow:hover{}
+.cboxSlideshow_on #cboxSlideshow{}
+.cboxSlideshow_on #cboxSlideshow:hover{}

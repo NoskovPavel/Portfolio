@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>Web Developer - Носков Павел</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <meta name="msapplication-TileImage" content="img/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <script src="js/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="resume_name_inf-inf">
+        <p v-show="showP" class="alert alert-success">Здравствуйте, меня зовут Павел.</p>
+        <input type="text">
+        <hr>
+        <button class="btn btn-primary"
+                v-on:click="showP = !showP"
+        >
+            {{ btnText }}
+        </button>
+        <hr>
+        <!-- индекс удачливости -->
+        <app-progress v-bind:val="sum"
+                      v-bind:max="maxNumbers * 5">
+
+        </app-progress>
+        <hr>
+        <transition name="slide">
+            <h2 v-show='showP' class="alert alert-success">Your profit: {{ sum }}</h2>
+        </transition>
+        <hr>
+        <app-progress v-bind:val="numbers.length"
+                      v-bind:max="maxNumbers">
+
+        </app-progress>
+        <hr>
+        <button class="btn btn-success"
+                v-on:click="addNumber"
+                v-bind:disabled="done"
+        >
+            Add number
+        </button>
+        <ul class="list-group">
+            <li class="list-group-item"
+                v-for="number in numbers"
+            > {{ number }}
+            </li>
+        </ul>
+        <hr>
+    </div>
+</div>
+
+<script>
+    Vue.component('app-progress', {
+        computed: {
+            width() {
+                let w = this.val / this.max * 100;
+                if (w > 100) {
+                    w = 100;
+                } else if (w < 0) {
+                    w = 0;
+                }
+                return {
+                    width: w + '%'
+                }
+            }
+        },
+        props: {
+            max: Number,
+            val: Number
+        },
+        template: `
+                    <div class="progress">
+                        <div class="progress-bar" v-bind:style="width">
+                        </div>
+                    </div>
+                    `
+    });
+
+    let app = new Vue({
+        el: '.resume_name_inf-inf',
+        data: {
+            showP: 'true',
+            numbers: [],
+            maxNumbers: 10
+        },
+        methods: {
+            addNumber() {
+                if (!this.done) {
+                    let rnd = Math.floor(Math.random() * 11) - 5;
+                    this.numbers.push(rnd);
+                }
+            }
+        },
+        computed: {
+            sum() {
+                let sum = 0;
+                for (let i = 0; i < this.numbers.length; i++) {
+                    sum += this.numbers[i];
+                }
+                return sum;
+            },
+            btnText() {
+                return this.showP ? 'Hide result' : 'Show result';
+            },
+            done() {
+                return this.numbers.length >= this.maxNumbers;
+            }
+        }
+    });
+</script>
+
+
+</body>
+</html>

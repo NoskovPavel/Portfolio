@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-14T10:33:21+00:00\n"
+"Last-Translator: FajrYassin <fajryassin@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: U.A.E.\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "القالب 01"
+
+msgid "Theme 02"
+msgstr "القالب 02"
+
+msgid "Theme 03"
+msgstr "القالب 03"
+
+msgid "Theme 04"
+msgstr "القالب 04"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "يحتوي القالب (مثلا ملف %s) في إشارة إلى jQuery من مكتبة الجافا سكريبت."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "هذه الإشارة قد تعطل الإضافة، لذا إذا توقفت الإضافة عن العمل، إما إحذف هذه الإشارة %s أو إلتزم بما هو مكتوب"
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "-:: ابعاد ظهور تكبير الصورة ::-"
+
+msgid "Max width:"
+msgstr "أقصى عرض:"
+
+msgid "Max height:"
+msgstr "أقصى إرتفاع:"
+
+msgid "Do you want to clip to browser size:"
+msgstr "هل تريد عرض الصورة بحجم المتصفح:"
+
+msgid "Do you want other width/height for mobile terminals?"
+msgstr "هل تريد تحديد حجم عرض/إرتفاع الصورة للجوال؟"
+
+msgid "Max width for mobile:"
+msgstr "اقصى عرض للجوال:"
+
+msgid "Max height for mobile:"
+msgstr "أقصى إرتفاع للجوال:"
+
+msgid "What is the text for the frontend?"
+msgstr "-:: خيارات تعديل عرض الكلمات بالواجهة ::-"
+
+msgid "Previous:"
+msgstr "السابق:"
+
+msgid "Next:"
+msgstr "التالي:"
+
+msgid "Close:"
+msgstr "إغلاق:"
+
+msgid "Play:"
+msgstr "تشغيل:"
+
+msgid "Pause:"
+msgstr "إيقاف:"
+
+msgid "The image counter:"
+msgstr "عدد الصور:"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "يتم عرض %s على أنها رقم الصورة التي تشاهدها، ويتم عرض %s للعدد الإجمالي للصور."
+
+msgid "What is the theme?"
+msgstr "-:: خيارات عرض قالب الصور ::-"
+
+msgid "Choose the theme:"
+msgstr "إختار القالب:"
+
+msgid "Theme 01 is : %s."
+msgstr "القالب 01 : %s."
+
+msgid "Theme 02 is : %s."
+msgstr "القالب 02: %s."
+
+msgid "Theme 03 is : %s."
+msgstr "القالب 03: %s."
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "القالب 04 : %s (صمم من قبل %s)."
+
+msgid "Additional CSS you want to add:"
+msgstr "إختار CSS الإضافية التي تريد إضافتها"
+
+msgid "If you want to modify sligthly the CSS, you can modify it here."
+msgstr "إذا كنت ترغب في تعديل طفيف في CSS، يمكنك تعديله هنا."
+
+msgid "Show description text"
+msgstr "-:: عرض وصف النص بالصور ::-"
+
+msgid "Show the title of the image:"
+msgstr "عرض عنوان الصورة:"
+
+msgid "Show the alternative text of the image:"
+msgstr "عرض النص البدلي لـ:"
+
+msgid "What are the other parameters?"
+msgstr "-:: إعدادات آخرى ::-"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "وقت الإنتقال بين الصور:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "تشغيل عرض الصور بشكل تلقائي:"
+
+msgid "The opacity of the background:"
+msgstr "شفافية الخلفية &quot;إفتراضي 0.8&quot;:"
+
+msgid "Advanced parameters?"
+msgstr "-:: إعدادات متقدمة ::-"
+
+msgid "Disable the navigation buttons on images:"
+msgstr "تعطيل أزرار slideshow بين الصور:"
+
+msgid "Disable click on the image for next (it will then close the slideshow):"
+msgstr "تعطيل انقر على الصورة التالي (فإنه سيتم ثم إغلاق عرض الشرائح):"
+
+msgid "Disable the slideshow buttons on images:"
+msgstr "تعطيل أزرار العرض على الصور:"
+
+msgid "List of page exclusions (regular expressions):"
+msgstr "قائمة إستثناءات الصفحة (المصطلحات الإفتراضية):"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "على سبيل المثال، قمت بإستبعاد صفحة برابط مثل %s بتحديد الخيار على %s. نرجو تحديد مصطلح إفتراضي بكل سطر"
+
+msgid "You may also exclude this same page by setting this option to %s"
+msgstr "يمكنك أيضا إستبعاد نفس الصفحة عن طريق إعدادات هذا الخيار %s"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "وبالإضافة إلى ذلك، يمكنك تعيين هذا الخيار إلى %s وإلى %s لاستبعاد الصفحة الرئيسية"
+
+msgid "Disable if the user uses mobile terminal:"
+msgstr "تعطيل إذا كان المستخدم يستخدم جوال طرفي"
+
+msgid "Parameters"
+msgstr "الإعدادات"
+
+msgid "This plugin allows a dynamic zoom on the images."
+msgstr "هذه الإضافة تساعد على التكبير الديناميكي على الصور"
+
+msgid "All images in your pages/posts like %s will be zoomable."
+msgstr "جميع الصور في الصفحات/المواضيع %s سيتم تكبيرها"
+
+msgid "Purpose of that plugin"
+msgstr "الهدف من هذه الإضافة"
+
+msgid "If you want to exclude one specific image, please modify the HTML code so that this image is like that: %s or %s."
+msgstr "إذا أردت إستبعاد صورة محددة، يرجى تعديل كود HTML بحيث أن هذه الصورة مثل %s أو %s."
+
+msgid "Exclude an image"
+msgstr "إستبعاد صورة"
+
+msgid "If you want to exclude one specific page, please use the advanced option in the configuration tab"
+msgstr "إذا كنت تريد استبعاد صفحة معينة واحدة، الرجاء استخدام خيار متقدم في علامة التبويب التكوين"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to portfolio. Please add one regular expressions by line."
+msgstr "على سبيل المثال، تريد إستبعاد هذه الصفحة %s يتم بتحديد خيار الملف. نرجو إضافة مطلح في كل سطر."
+
+msgid "You may also exclude this same page by setting this option to %s."
+msgstr "تستطيع أيضا استبعاد نفس الصفحة عن طريق وضع هذا الخيار لـ %s"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page."
+msgstr "بالإضافة إلى ذلك، يمكنك تعيين هذا الخيار إلى %s وإلى %s لاستبعاد الصفحة الرئيسية."
+
+msgid "Exclude a page"
+msgstr "إستبعاد صفحة"
+
+msgid "One of the most probable reason that the plugin does not work is that there is a conflict with your theme of one of your plugins."
+msgstr "أحد الأسباب الأكثر إحتمالا أن الإضافة لا تعمل هو التعارض بين قالب الموقع والإضافات."
+
+msgid "Before contacting me, please test deactivating each plugin one by one to see if it solve the problem and change the theme by the default one."
+msgstr "قبل الاتصال بي، يرجى اختبار تعطيل كل الإضافات واحدا تلو الآخر لمعرفة إذا كانت المشكلة من أحدها وتغيير القالب إلى الإفتراضي."
+
+msgid "Indeed, most of the time the %s library is not loaded correctly."
+msgstr "في الواقع، معظم الوقت يكون %s لم يتم تحميله من مكتبة الجافا بشكل صحيح"
+
+msgid "I cannot give you a simple way to correct it!"
+msgstr "لا أستطيع أن أعطيك طريقة بسيطة لتصحيح ذلك!"
+
+msgid "The plugin does not work"
+msgstr "الإضافة لا تعمل"
+
+msgid "How To"
+msgstr "تشغيل الإضافة"
+
+msgid "Manage translations"
+msgstr "إدارة الترجمات"
+
+msgid "Give feedback"
+msgstr "أكتب تعليق لنا"
+
+msgid "Other plugins"
+msgstr "إضافات آحرى"
+

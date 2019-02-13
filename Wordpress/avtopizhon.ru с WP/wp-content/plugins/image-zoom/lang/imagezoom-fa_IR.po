@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-04-17T08:43:11+00:00\n"
+"Last-Translator: amirhosein <h.kabiri@rocketmail.com>\n"
+"Last-Translator: SaeedKholousi <saeedsk205@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Farsi\n"
+"X-Poedit-Country: Iran\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "ظاهر یک"
+
+msgid "Theme 02"
+msgstr "ظاهر د."
+
+msgid "Theme 03"
+msgstr "ظاهر سه"
+
+msgid "Theme 04"
+msgstr "ظاهر چهار"
+
+msgid "Max width:"
+msgstr "بیشینه عرض"
+
+msgid "Max height:"
+msgstr "بیشینه ارتفاع"
+
+msgid "Max width for mobile:"
+msgstr "بیشینه عرض برای موبایل"
+
+msgid "Max height for mobile:"
+msgstr "بیشینه ارتفاع برای موبایل"
+
+msgid "Previous:"
+msgstr "قبلی"
+
+msgid "Next:"
+msgstr "بعدی"
+
+msgid "Close:"
+msgstr "بستن"
+
+msgid "Play:"
+msgstr "پخش"
+
+msgid "Pause:"
+msgstr "توقف"
+
+msgid "The plugin does not work"
+msgstr "این افزونه کار نم یکند"
+
+msgid "How To"
+msgstr "چگونه"
+
+msgid "Other plugins"
+msgstr "افزونه های دیگر"
+
+msgid "Manage translations"
+msgstr "مدیریت زبان"
+
+msgid "Do you want to clip to browser size:"
+msgstr "آیا شما می خواهید به اندازه مرورگر برش بزنید:"
+
+msgid "Do you want other width/height for mobile terminals?"
+msgstr "آیا شما می خواهید تغییر دهید عرض / ارتفاع را برای پایانه های تلفن همراه؟"
+
+msgid "What is the text for the frontend?"
+msgstr "متن برای ظاهر چیست؟"
+
+msgid "The image counter:"
+msgstr "تصویر مقابله:"
+
+msgid "What is the theme?"
+msgstr "تم چیست؟"
+
+msgid "Choose the theme:"
+msgstr "انتخاب تم:"
+
+msgid "Theme 01 is : %s."
+msgstr "تم 01 : %s"
+
+msgid "Theme 02 is : %s."
+msgstr "تم 02 : %s"
+
+msgid "Theme 03 is : %s."
+msgstr "تم 03 : %s"
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "تم 04 : %s - ساخته شده توسط %s"
+
+msgid "Additional CSS you want to add:"
+msgstr "CSS اضافی که شما می خواهید به رنامه اضافه کنید:"
+
+msgid "Show description text"
+msgstr "متن نمایش توضیحات"
+
+msgid "Show the title of the image:"
+msgstr "نمایش عنوان تصویر:"
+
+msgid "Advanced parameters?"
+msgstr "پارامترهای پیشرفته؟"
+
+msgid "Parameters"
+msgstr "پارامترها"
+
+msgid "Purpose of that plugin"
+msgstr "هدف از این پلاگین"
+
+msgid "Exclude an image"
+msgstr "حذف تصویر"
+
+msgid "Exclude a page"
+msgstr "حذف صفحه"
+
+msgid "Give feedback"
+msgstr "دریافت بازخورد"
+

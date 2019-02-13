@@ -1,0 +1,53 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+.gallery_colorbox {cursor: url(../img/zoomin.cur), pointer; }
+#cboxOverlay{background:#000;}
+#colorbox{outline:0;}
+#cboxContent{margin-top:40px;margin-bottom:40px;margin-left:10px;margin-right:10px;background: #000 url('../img/loading.gif') no-repeat center;}
+.cboxIframe{background:#fff;}
+#cboxError{padding:50px; border:1px solid #ccc;color:#BBB;text-align:center;}
+#cboxLoadedContent{border:5px solid #000; background:#fff;}
+#cboxTitle{position:absolute; bottom:-40px; height:40px; overflow:auto; overflow-y:hidden; left:0; color:#ccc;}
+#cboxTitle h2{margin:0px;padding:0px;font-size:105%;font-weight:bold ;}
+#cboxCurrent{position:absolute; top:-40px; height:40px; overflow:auto; overflow-y:hidden; right:0px; color:#ccc;}
+#cboxLoadingGraphic{background:url('../img/loading.gif') no-repeat center center;}
+#cboxLoadingOverlay{background:#000;}
+#cboxLoadingGraphic{background:url('../img/loading.gif') no-repeat center center;}
+#cboxLoadedContent{border:5px solid #FFFFFF;background:#FFFFFF;background:url('../img/loading.gif') no-repeat center;}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+#cboxPrevious{position:absolute; bottom:15px; left:50%; margin-left:-47px; background:url('../img/theme3.png') no-repeat 0px -16px; width:34px; height:32px; text-indent:-9999px;}
+#cboxPrevious:hover{background-position:0px -81px;}
+#cboxNext{position:absolute; bottom:15px; left:50%; margin-left:13px; background:url('../img/theme3.png') no-repeat -63px -16px; width:34px; height:32px; text-indent:-9999px;}
+#cboxNext:hover{background-position:-63px -81px;}
+#cboxClose{position:absolute; top:-8px; right:-11px; display:block; background:url('../img/theme3.png') no-repeat -37px 0px; width:26px; height:25px; text-indent:-9999px;}
+#cboxClose:hover{background-position:-37px -29px;}
+.cboxSlideshow_off #cboxSlideshow{position:absolute; bottom:15px; left:50%; margin-left: -13px; display:block; background:url('../img/theme3.png') no-repeat -37px -130px; width:26px; height:32px; text-indent:-9999px;}
+.cboxSlideshow_off #cboxSlideshow:hover{background-position:-37px -161px}
+.cboxSlideshow_on #cboxSlideshow{position:absolute; bottom:15px; left:50%; margin-left: -13px; display:block; background:url('../img/theme3.png') no-repeat -37px -193px; width:26px; height:32px; text-indent:-9999px;}
+.cboxSlideshow_on #cboxSlideshow:hover{background-position:-37px -224px; }

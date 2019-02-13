@@ -1,0 +1,46 @@
+/*====================================================
+------------- Accordion Theme Default ----------------
+=====================================================*/
+.afwp-theme-default{
+    .afwp-accordion-item-wrap {
+        padding: 0;
+        position: relative;
+        margin: 0 0 1px;
+        overflow: hidden;
+        border: 1px solid #e1e1e1;
+    }
+
+    .afwp-post-link, .afwp-accordion-title{
+        position: relative;
+        display: block;
+        padding: 10px 0 10px 1em;
+        margin: 0;
+        line-height: 1.4em;
+        cursor: pointer;
+    }
+
+    .afwp-content {
+        border: 1px solid #e1e1e1;
+    }
+
+    .vertical{
+        .afwp-accordion-item-wrap {
+            width: 100%;
+        }
+
+    }
+    .horizontal{
+        .afwp-accordion-item-wrap {
+            border:none;
+        }
+        .afwp-accordion-title{
+            border: 1px solid #e1e1e1;
+        }
+        .afwp-content {
+            padding: 10px;
+        }
+        .afwp-post-link, .afwp-accordion-title{
+            padding-top: 30px;
+        }
+    }
+}

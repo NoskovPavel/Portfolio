@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-10T16:11:01+00:00\n"
+"Last-Translator: tcp443 <www.tcp443.de>\n"
+"Last-Translator: B.Klein <www.kpowered.de>\n"
+"Last-Translator: Frutte <http://www.figaros-netzwerk.de>\n"
+"Last-Translator: Dirk <dirk@dredv.de>\n"
+"Last-Translator: Robin <rc.tontechnik@gmail.com>\n"
+"Last-Translator: Francisco <franko.cubava.cu>\n"
+"Last-Translator: Lothar <kontakt@ezigarette-discount.de>\n"
+"Last-Translator: MDS <marcel.daniel.schott@googlemail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Thema 01"
+
+msgid "Theme 02"
+msgstr "Thema 02"
+
+msgid "Theme 03"
+msgstr "Thema 03"
+
+msgid "Theme 04"
+msgstr "Thema 04"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Ihr Thema enthält (i.e. in %s Datei) einen hartcodierten Referenz auf die jQuery-JavaScript-Bibliothek."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "Diese Referenz kann das Plugin zu brechen. Also, wenn das Plugin nicht funktioniert, löschen Sie bitte entweder die Referenz oder verschieben Sie sie kurz nach der %s Erklärung."
+
+msgid "This plugin allows a dynamic zoom on the images."
+msgstr "Dieses Plugin erlaubt das dynamische Zoomen von Bildern"
+
+msgid "All images in your pages/posts like %s will be zoomable."
+msgstr "Alle Bilder, wie %s, die in den Seiten/Posts enthalten sind, sind zoombar"
+
+msgid "If you want to exclude one specific image, please modify the HTML code so that this image is like that: %s or %s."
+msgstr "Wenn du ein Bild ausnehmen willst, modifiziere bitte den HTML Code so, dass das Bild ist wie hier: %s oder %s"
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Wie groß soll der Ausschnitt des gezoomten Bildes sein?"
+
+msgid "Max width:"
+msgstr "Maximale Breite:"
+
+msgid "Max height:"
+msgstr "Maximale Höhe:"
+
+msgid "Do you want to clip to browser size:"
+msgstr "Wollen Sie auf Browsergröße Clip wollen:"
+
+msgid "What is the text for the frontend?"
+msgstr "Wie lautet der Frontend-Text?"
+
+msgid "Previous:"
+msgstr "Vorheriges:"
+
+msgid "Next:"
+msgstr "Nächstes:"
+
+msgid "Close:"
+msgstr "Schließen:"
+
+msgid "Play:"
+msgstr "Abspielen:"
+
+msgid "Pause:"
+msgstr "Pause:"
+
+msgid "The image counter:"
+msgstr "Auflistung der Bilder."
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "%s wird mit dem Index des Bildes und %s mit der Gesamtanzahl der Bilder in der Seite zu ersetzen."
+
+msgid "What is the theme?"
+msgstr "Wie ist das Thema:"
+
+msgid "Choose the theme:"
+msgstr "Wähle das Thema:"
+
+msgid "Theme 01 is : %s."
+msgstr "Thema 01: %s."
+
+msgid "Theme 02 is : %s."
+msgstr "Thema 02: %s."
+
+msgid "Theme 03 is : %s."
+msgstr "Thema 03: %s."
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "Thema 04: %s (created by %s)."
+
+msgid "Show description text"
+msgstr "Zeige Beschreibungstext:"
+
+msgid "Show the title of the image:"
+msgstr "Zeige den Titel der Abildung:"
+
+msgid "Show the alternative text of the image:"
+msgstr "Zeige den Alternativtext der Abbildung:"
+
+msgid "What are the other parameters?"
+msgstr "Weitere Parameter?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Wartezeit der Slideshow:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Autostart der Slideshow nach dem Aufruf:"
+
+msgid "The opacity of the background:"
+msgstr "Deckkraft des Hintergrundes:"
+
+msgid "Advanced parameters?"
+msgstr "Erweitere Parameter:"
+
+msgid "Disable the navigation buttons on images:"
+msgstr "Navigation sichtbar machen:"
+
+msgid "Disable click on the image for next (it will then close the slideshow):"
+msgstr "Beenden der Bildanzeige:"
+
+msgid "Disable the slideshow buttons on images:"
+msgstr "Navigation auf Abbilgungen anzeigen."
+
+msgid "List of page exclusions (regular expressions):"
+msgstr "Liste der ausgenommen Seiten (Regular Expressions):"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "Zum Beispiel können Sie Seite mit URL wie %s, indem Sie diese Option, um %s auszuschließen. Bitte fügen Sie eine reguläre Ausdrücke für Zeile"
+
+msgid "You may also exclude this same page by setting this option to %s"
+msgstr "Du kannst die selbe Seite auch ausschließen, indem du diese Option zu %s setzts"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "Darüber hinaus können Sie diese Option, um %s zu setzen und %s, um die Homepage ausschließen"
+
+msgid "Parameters"
+msgstr "Einstellungen"
+
+msgid "Manage translations"
+msgstr "Übersetzungen verwalten"
+
+msgid "Give feedback"
+msgstr "Feedback"
+
+msgid "Other plugins"
+msgstr "weitere Plugins"
+
+msgid "Max width for mobile:"
+msgstr "Maximale Breite für Mobilgeräte"
+
+msgid "Max height for mobile:"
+msgstr "Maximale Höhe für Mobilgeräte"
+
+msgid "Additional CSS you want to add:"
+msgstr "Zusätzlicher CSS Code den Du hinzufügen kannst"
+
+msgid "Disable if the user uses mobile terminal:"
+msgstr "Muss deaktiviert werden, wenn ein mobiles Endgerät verwendet wird"
+
+msgid "Purpose of that plugin"
+msgstr "Zweck dieses Plugin"
+
+msgid "Exclude an image"
+msgstr "Ausschließen eines Bildes"
+
+msgid "Exclude a page"
+msgstr "Ausschließen einer Seite"
+
+msgid "The plugin does not work"
+msgstr "Das Plugin funktioniert nicht"
+
+msgid "Do you want other width/height for mobile terminals?"
+msgstr "Möchten Sie eine abweichende Breite/Höhe für mobile Geräte?"
+
+msgid "If you want to modify sligthly the CSS, you can modify it here."
+msgstr "Wenn Sie die CSS etwas verändern möchten, können Sie dies hier tun."
+

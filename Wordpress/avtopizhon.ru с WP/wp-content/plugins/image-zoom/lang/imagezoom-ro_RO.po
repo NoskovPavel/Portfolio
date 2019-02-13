@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-18T11:14:57+00:00\n"
+"Last-Translator: Francisco <franko.cubava.cu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2); \n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Tema 01"
+
+msgid "Theme 02"
+msgstr "Tema 02"
+
+msgid "Theme 03"
+msgstr "Tema 03"
+
+msgid "Theme 04"
+msgstr "Tema 04"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Tema dvs. conţine (ex: in %s file) o referinţă forţată către biblioteca jQuery javascript."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "Acestă referinţă ar putea duce la cedarea plugin-ului. Dacă plugin-ul nu funcţionează, vă rugăm să ştergeţi referinţa sau să o mutaţi chiar după declaraţia %s."
+
+msgid "This plugin allows a dynamic zoom on the images (based on the colorbox javascript library)"
+msgstr "Acest plugin permite un zoom dinamic al imaginilor (bazat pe biblioteca colorbox javascript)."
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Care sunt dimensiunile reduse (decupate) ale imaginii mărite."
+
+msgid "Max width:"
+msgstr "Lăţimea max."
+
+msgid "Max height:"
+msgstr "Înălţimea max."
+
+msgid "What is the text for the frontend?"
+msgstr "Care este textul pentru interfaţa?"
+
+msgid "Previous:"
+msgstr "Anterior:"
+
+msgid "Next:"
+msgstr "Următor:"
+
+msgid "Close:"
+msgstr "Închide:"
+
+msgid "Play:"
+msgstr "Rulează:"
+
+msgid "Pause:"
+msgstr "Pauză:"
+
+msgid "The image counter:"
+msgstr "Contor imagini:"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "%s va fi înlocuit cu indexul imaginii şi %s cu numărul total de imaginii din pagină."
+
+msgid "What is the theme?"
+msgstr "Care este tema?"
+
+msgid "Choose the theme:"
+msgstr "Alegeţi tema:"
+
+msgid "Theme 01 is : %s."
+msgstr "Tema 01 este: %s."
+
+msgid "Theme 02 is : %s."
+msgstr "Tema 02 este: %s."
+
+msgid "Theme 03 is : %s."
+msgstr "Tema 03 este: %s."
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "Tema 04 este: %s (creată de %s)."
+
+msgid "Show description text"
+msgstr "Arată descrierea."
+
+msgid "Show the title of the image:"
+msgstr "Arată titlul imaginii."
+
+msgid "Show the alternative text of the image:"
+msgstr "Arată textul alternativ pentru imagine."
+
+msgid "What are the other parameters?"
+msgstr "Care sunt ceilalţi parametrii?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Timpul tranziţiei, daca slideshow-ul este activ:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Porneşte slideshow-ul automat la lansare:"
+
+msgid "The opacity of the background:"
+msgstr "Opacitatea fundalului:"
+
+msgid "Advanced parameters?"
+msgstr "Parametrii avansaţi?"
+
+msgid "Disable the navigation buttons on images:"
+msgstr "Dezactivaţi butoanele de navigare ale imaginilor."
+
+msgid "Disable click on the image for next (it will then close the slideshow):"
+msgstr "Dezactivaţi click-ul pentru a trece la următoarea imagine (va funcţiona la finalizarea slideshow-ului):"
+
+msgid "Disable the slideshow buttons on images:"
+msgstr "Dezactivaţi butoanele slideshow-ului pe imagini:"
+
+msgid "List of page exclusions:"
+msgstr "Lista paginilor excluse:"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "De exemplu, puteţi exclude o pagină prin URL-ul său ca %s setând această opţiune ca %s. Vă rugăm sa adăugaţi o expresie obişnuită pe linie."
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "În plus puteţi seta opţiunea să %s şi să %s pentru a exclude prima pagină"
+
+msgid "Parameters"
+msgstr "Parametrii"
+
+msgid "Manage translations"
+msgstr "Setează traducerile"
+
+msgid "Give feedback"
+msgstr "Daţi-ne feedback."
+
+msgid "Other plugins"
+msgstr "Alte plugin-uri."
+
+msgid "Do you want to clip to browser size:"
+msgstr "Vrei să clip la dimensiunea browser:"
+

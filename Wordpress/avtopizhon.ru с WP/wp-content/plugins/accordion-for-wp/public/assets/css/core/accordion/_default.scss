@@ -1,0 +1,47 @@
+/*====================================================
+-------------- Accordion Default ----------------------
+=====================================================*/
+.afwp-default{
+
+    .afwp-accordion-list{
+        border-bottom: 1px solid #dedede;
+    }
+
+    .afwp-accordion-item-wrap {
+        padding: 0;
+        border: none;
+        position: relative;
+        margin: 0 0 1px;
+        overflow: hidden;
+    }
+
+    .afwp-accordion-title{
+        position: relative;
+        display: block;
+        color: $white_color;
+        padding: 10px 0 10px 1em;
+        margin: 0;
+        background: $primary_color;
+        font-weight: 600;
+        line-height: 1.4em;
+        cursor: pointer;
+        box-shadow:none;
+        &:hover, &.current{
+            box-shadow:none;
+            background: $secondary_color;
+            color: $white_color;
+        }
+    }
+
+    .afwp-content {
+        color: $white_color;
+        background: lighten($secondary_color, 10%);
+    }
+
+    .horizontal{
+        .afwp-accordion-title, .afwp-post-link{
+            padding-top: 30px;
+        }
+    }
+
+}

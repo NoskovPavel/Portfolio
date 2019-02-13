@@ -1,0 +1,44 @@
+				.plugin-titleSL h2 {
+					font-family: "Helvetica Neue",sans-serif;
+					font-weight: bold; 
+					font-size: 30px;
+					max-width: 682px;
+					position: absolute;
+					left: 30px;
+					bottom: 20px;
+					padding: 15px;
+					margin-bottom: 4px;
+					color: #ffffff;
+					background-color: rgba(30, 30, 30, 0.9);
+					background-image: none;
+					background-repeat: repeat;
+					background-attachment: scroll;
+					background-position: 0% 0%;
+					background-clip: border-box;
+					background-origin: padding-box;
+					background-size: auto auto;
+					text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+					box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
+					border-top-left-radius: 8px;
+					border-top-right-radius: 8px;
+					border-bottom-right-radius: 8px;
+					border-bottom-left-radius: 8px; 				
+				}
+								.plugin-titleSL {
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					height:110px;
+					width:772px;
+					background-image: none;
+					background-size:772px 110px;
+					z-index:-100;
+				}	
+				.plugin-contentSL {
+					margin-bottom:20px;					
+					padding:20px ; 
+					padding-top:110px ; 
+				}
+				
+
+				

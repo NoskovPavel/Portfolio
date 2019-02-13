@@ -1,0 +1,655 @@
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/diff_admin.css*/
+/*====================================================*/
+/* 
+VersionDiffCss : 1.0
+*/
+
+.numbering li.numbering_li {
+	font-size:1em;
+	line-height:1em ; 
+	color:#222222 ;
+	margin: 0px ; 
+	padding: 0px ; 
+	background-image:none ; 
+}
+
+.numbering li.numbering_li:last-child {
+	font-size:1em;
+	line-height:1em ; 
+	color:#222222 ;
+	margin: 0px ; 
+	padding: 0px ; 
+	background-image:none ; 
+}
+
+.diff_result pre {
+    font-size: 1em;
+    line-height: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.diff_del {
+	background-color:#D19275 ; 
+	color:#8E2323 ;
+	text-decoration:line-through;
+}
+
+.diff_ins {
+	background-color:#A2CD5A ; 
+	color:#2F4F2F ;
+}
+
+.diff_result {
+	border-style:solid;
+	border-width:1px;
+	border-color:#CCCCCC ; 
+	margin : 20px ;
+	padding : 20px ; 
+	font-family: "Courier New", "Courier", "Lucida Console", "Consolas" ; 
+}
+
+.diff_hr {
+	border: 1px solid #AAAAAA;
+	width: 80%;
+}
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/msgbox_admin.css*/
+/*====================================================*/
+.infoSedLex, .successSedLex, .warningSedLex, .errorSedLex {
+border: 1px solid;
+margin: 3px 3px;
+padding:10px 5px 10px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.infoSedLex {
+color: #00529B;
+background-color: #BDE5F8;
+background-image: url('http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/info.png');
+}
+.successSedLex {
+color: #4F8A10;
+background-color: #DFF2BF;
+background-image:url('http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/success.png');
+}
+.warningSedLex {
+color: #9F6000;
+background-color: #FEEFB3;
+background-image: url('http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/warning.png');
+}
+.errorSedLex {
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/error.png');
+}
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/otherplugins_admin.css*/
+/*====================================================*/
+div.screenshot_wordpress {
+	border: 1px solid #999999;
+	margin: 3px 3px;
+	padding:10px 10px 10px 10px;
+	position:relative;
+	float:left ; 
+}
+
+div.screenshot_wordpress .screenshot {
+  /* Code standard */ 
+  max-width: 100px; 
+  max-height: 100px; 
+ 
+  /* Code spécial IE */ 
+  _width: expression((this.offsetWidth>=this.offsetHeight) ? 
+      Math.min(parseInt(this.offsetWidth), 100 ) : true); 
+  _height: expression((this.offsetHeight>this.offsetWidth) ? 
+      Math.min(parseInt(this.offsetHeight), 100 ) : true);
+}
+
+div.description_wordpress ul {
+	list-style: disc;
+	padding-left: 2em;
+}
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/parameters_admin.css*/
+/*====================================================*/
+.paramLine {
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:0px;
+	line-height:12px;
+}
+
+.paramComment {
+	padding-left:50px;
+	padding-top:5px;
+	padding-bottom:0px;
+	line-height:12px;
+	color:#A4A4A4; 
+}
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/popup_admin.css*/
+/*====================================================*/
+#backgroundPopup{  
+	display:none;  
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6*/  
+	height:100%;  
+	width:100%;  
+	top:0;  
+	left:0;  
+	background:#000000;  
+	border:1px solid #cecece;  
+	z-index:10000;  
+}  
+
+#popupForm{  
+	display:none;  
+	position:fixed;
+	top:50px ; 
+    bottom:50px ; 
+    left:50px;
+    right:50px;
+	background:#DDDDDD;  
+	padding:10px;  
+	z-index:10001;  
+}  
+
+#innerPopupForm {
+	position:absolute;
+	top:34px ; 
+    bottom:5px ; 
+    left:5px;
+    right:5px;
+    z-index:10002;
+	background:#FFFFFF;
+	overflow:auto ; 
+	padding:10px;  
+}
+
+
+#titlePopupForm {
+	position:absolute;
+	top:0px ; 
+	left:0px ; 
+	right:31px;
+	height:32px ;
+	background:#999999;
+	background-image:url('http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/title_popup.png');
+	background-repeat:repeat-x;
+	z-index:10002;
+	padding:0px ; 
+	padding-left:20px ;
+}
+
+#titlePopupForm p {
+   font-size:15px ;
+   padding:0px ; 
+   margin:0px ; 
+   line-height:31px ; 
+}
+
+
+#popupContentArea {
+	text-align:left;  
+}
+
+#popupFormClose{  
+	right:0px;  
+	top:0px;  
+	height:32px ;
+	width:31px ; 
+	position:absolute;    
+	display:block;  
+	background:#999999;
+
+}  
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/post_admin.css*/
+/*====================================================*/
+.adminPost {font:12px/1.3em Helvetica, Arial, sans-serif;}
+
+.adminPost h1, .adminPost h2, .adminPost h3, .adminPost h4, .adminPost h5, .adminPost h6  { margin:1em 0 0.5em; }
+.adminPost h1  {font-size: 2em ; line-height: 1.3em ;} 
+.adminPost h2  {font-size: 1.8em; line-height: 1.3em ;} 
+.adminPost h3  {font-size: 1.6em; line-height: 1.1em ;} 
+.adminPost h4  {font-size: 1.2em; line-height: 0.9em ;} 
+.adminPost h5  {font-size: 1em; } 
+.adminPost h6  {font-size: 0.8em; }
+
+.adminPost p  { margin-bottom: 0.7em; font-size: 12px; }
+
+.adminPost a:link, .adminPost a:visited  { color: #000; text-decoration:none;}
+.adminPost a:hover {text-decoration:underline;}
+
+.adminPost ul  { margin-bottom: 0.4em; padding: 0 0 0 30px; }
+.adminPost ul ul  { margin: 0; }
+.adminPost ul li  {	list-style-type: disc; }
+.adminPost ul ul li  { list-style-type: circle; }
+
+.adminPost ol  { margin-bottom: 0.4em; padding: 0 0 0 30px; }
+.adminPost ol ol  { margin: 0; }
+.adminPost  ol li  { list-style-type: decimal; }
+.adminPost  ol li ol li  { list-style-type: lower-latin; }
+
+.adminPost img.aligncenter  { margin-left:auto; margin-right:auto; display:block; }
+
+.adminPost .tableofcontent {
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-size: 0.95em;
+	min-width:200px;
+	float:left ; 
+}
+
+
+.adminPost .tableofcontent h6 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	margin : 3px ; 
+	padding-top : 5px ;
+	padding-bottom : 5px ;
+}	
+.adminPost .tableofcontent p {
+	margin : 3px ; 
+	line-height:7pt;
+	padding-top : 2px ; 
+}
+.adminPost .tableofcontent ul, .tableofcontent ol {
+	list-style: none;
+	padding: 0;
+}
+.adminPost .tableofcontent ul ul, .tableofcontent ol ol {
+	margin: 0 0 0 2em;
+}
+.adminPost .tableofcontent-end {
+	clear: both;
+}
+
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/tabs_admin.css*/
+/*====================================================*/
+/* 
+VersionTabsCss : 1.0
+*/
+
+#blc-tabs {
+	margin-top: 0.5em;
+}
+
+/* Tab navigation */
+.tabsSL > ul {
+	margin-bottom: -1px;
+	padding-left: 1.5em;
+}
+
+.tabsSL > ul li {
+	display: inline-block;
+	margin: 0 0.5em 0 0;
+	
+	border: 1px solid #DFDFDF;
+	
+	background: none repeat scroll 0 0 #F4F4F4;
+	
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-topleft: 6px;
+	
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	
+	font-weight: bold;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.tabsSL > ul li.ui-tabs-active {
+	background: white;
+	color: black;
+	border-bottom-color: white;
+}
+
+.tabsSL > ul li a {
+	display: inline-block;
+	padding: 0.5em 1em 0.6em 1em;
+	text-decoration: none;
+	color: #C1C1C1;
+}
+
+.tabsSL > ul li.ui-tabs-active a {
+	color: black;
+} 
+
+/* Tab panels */
+
+.tabsSL div.blc-section {
+	border: 1px solid #DFDFDF;
+	border-top-width: 1px;
+	padding: 1em;
+	
+	background: white;
+	
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+}
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/translation_admin.css*/
+/*====================================================*/
+/* 
+VersionTranslationCss : 1.0
+*/
+
+.pt_flag {
+	display:block;
+	float:left ; 
+	width:18px ; 
+	height:12px ; 
+	margin:0px 10px ; 
+	background:url('http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/flags_sprite.png') no-repeat;
+}
+
+
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/core/css/tree_admin.css*/
+/*====================================================*/
+ul.tree, ul.tree ul { 
+	list-style-type: none; 
+	background: url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/tree_vline.png") repeat-y; 
+	margin: 0; padding: 0; 
+} 
+
+ul.tree ul { 
+	margin-left: 10px; 
+} 
+
+ul.tree li { 
+	margin: 0; 
+	padding: 0 12px; 
+	line-height: 20px; 
+	background: url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/tree_node.png") no-repeat; 
+} 
+
+ul.tree li:last-child { 
+	background: #fff url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/tree_lastnode.png") no-repeat; 
+}
+
+ul.tree li.minus_folder { 
+	background: url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/tree_node_minus.png") no-repeat; 
+}
+
+ul.tree li.plus_folder { 
+	background: url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/tree_node_plus.png") no-repeat; 
+}
+
+ul.tree li.minus_folder:last-child { 
+	background: #fff url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/tree_lastnode_minus.png") no-repeat; 
+}
+
+ul.tree li.plus_folder:last-child { 
+	background: #fff url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/tree_lastnode_plus.png") no-repeat; 
+}
+
+ul.tree div.loading { 
+	padding-left:18px ; 
+	background: url("http://localhost/wordpress/wp-content/plugins/image-zoom/core/img/ajax-loader.gif") no-repeat left 3px; 
+}
+
+.highlight_placeholder {
+	border: 1px solid #A1A1A1 ; 
+	height:15px;
+	width:200px;
+}
+
+
+
+/*====================================================*/
+/* FILE C:\xampp\htdocs\wordpress\wp-content\plugins\image-zoom/core/include/tokenize/jquery.tokenize.css*/
+/*====================================================*/
+div.TokenizeMeasure,
+div.Tokenize ul li span,
+div.Tokenize ul.TokensContainer li.TokenSearch input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+div.Tokenize {
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+}
+
+div.Tokenize ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.Tokenize ul li {
+    white-space: nowrap;
+}
+
+div.Tokenize ul.TokensContainer {
+    cursor: text;
+    padding: 0 5px 5px 0;
+    height: 100px;
+    overflow-y: auto;
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.Tokenize ul.TokensContainer.Autosize {
+    height: auto;
+}
+
+div.Tokenize.Disabled ul.TokensContainer,
+div.Tokenize.Disabled ul.TokensContainer input {
+    cursor: not-allowed;
+}
+
+div.Tokenize ul.TokensContainer li.Token {
+    border: 1px solid #ccd5e3;
+    background-color: #eff2f7;
+    padding: 0 5px;
+    line-height: 18px;
+}
+
+div.Tokenize ul.TokensContainer.ui-sortable:not(.ui-sortable-disabled) li.Token {
+    cursor: move;
+}
+
+div.Tokenize ul.TokensContainer li.Token.MovingShadow  {
+    border: 1px solid #fcefa1;
+    background-color: #fbf9ee;
+}
+
+div.Tokenize ul.TokensContainer li.Token.PendingDelete {
+    opacity : 0.5;
+    -moz-opacity : 0.5;
+    -ms-filter: "alpha(opacity=50)";
+    filter : alpha(opacity=50);
+}
+
+div.Tokenize ul.TokensContainer li.Token,
+div.Tokenize ul.TokensContainer li.TokenSearch {
+    margin: 5px 0 0 5px;
+    height: 18px;
+    float: left;
+}
+
+div.Tokenize ul.TokensContainer li.TokenSearch input {
+    margin: 0;
+    padding: 1px 0;
+    background-color: transparent;
+    line-height: 18px;
+    border: none;
+    outline: none;
+}
+
+div.Tokenize ul.TokensContainer li.Placeholder {
+    color: #ddd;
+    position: absolute;
+    line-height: 20px;
+    padding: 5px 0 0 5px;
+    display: none;
+}
+
+div.Tokenize ul.TokensContainer,
+div.Tokenize ul.Dropdown {
+    border: 1px solid #ccc;
+}
+
+div.Tokenize ul.TokensContainer li.Token a.Close {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 18px;
+    float: right;
+    margin: 1px 0 0 5px;
+    padding: 0;
+    cursor: pointer;
+    color: #a6b4ce;
+}
+
+div.Tokenize.Disabled ul.TokensContainer li.Token a.Close {
+    display: none;
+}
+
+div.Tokenize ul.TokensContainer li.Token a.Close:hover {
+    background: transparent;
+    text-decoration: none;
+}
+
+div.Tokenize ul.Dropdown {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+    display: none;
+    width: 100%;
+    padding: 5px 0;
+    margin: -1px 0 0 0;
+    position: absolute;
+    background-color: white;
+    overflow-y: auto;
+
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+
+    z-index: 20;
+}
+
+div.Tokenize ul.Dropdown li {
+    padding: 5px 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+div.Tokenize ul.Dropdown li.Hover {
+    color: white;
+    text-decoration: none;
+    background-color: #0081c2;
+    background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+    background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+/*====================================================*/
+/* FILE /sedlex/inline_styles/ec689b8822dc3ed951a8f272222cbd6404424e77.css*/
+/*====================================================*/
+				.plugin-titleSL h2 {
+					font-family: "Helvetica Neue",sans-serif;
+					font-weight: bold; 
+					font-size: 30px;
+					max-width: 682px;
+					position: absolute;
+					left: 30px;
+					bottom: 20px;
+					padding: 15px;
+					margin-bottom: 4px;
+					color: #ffffff;
+					background-color: rgba(30, 30, 30, 0.9);
+					background-image: none;
+					background-repeat: repeat;
+					background-attachment: scroll;
+					background-position: 0% 0%;
+					background-clip: border-box;
+					background-origin: padding-box;
+					background-size: auto auto;
+					text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+					box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
+					border-top-left-radius: 8px;
+					border-top-right-radius: 8px;
+					border-bottom-right-radius: 8px;
+					border-bottom-left-radius: 8px; 				
+				}
+								.plugin-titleSL {
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					width:772px;
+					height:250px;
+					background-image: url(http://localhost/wordpress/wp-content/plugins//image-zoom/img/banner-772x250.png);
+					background-size:772px 250px;
+					box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.1) inset;
+					z-index:-100;
+				}
+				.plugin-contentSL {
+					margin-bottom:20px;					
+					padding:20px ; 
+					padding-top:270px ; 
+				}
+				
+				
+
+								@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+					.plugin-titleSL {
+						background-image: url(http://localhost/wordpress/wp-content/plugins//image-zoom/img/banner-1544x500.png);
+					}
+				}
+				

@@ -1,0 +1,385 @@
+/*====================================================
+-------------- Accordion Reset ----------------------
+=====================================================*/
+.afwp-accordion .afwp-accordion-list {
+  padding: 0;
+  margin: 0 0 30px;
+  list-style: none !important;
+  overflow: hidden; }
+
+.afwp-accordion .afwp-accordion-item-wrap {
+  line-height: 0; }
+  .afwp-accordion .afwp-accordion-item-wrap > *, .afwp-accordion .afwp-accordion-item-wrap .afwp-accordion-title, .afwp-accordion .afwp-accordion-item-wrap .afwp-content {
+    line-height: 1.6em; }
+
+.afwp-accordion .afwp-toggle-icon:before {
+  line-height: 35px; }
+
+.afwp-accordion .afwp-content-wraper {
+  padding: 10px; }
+
+.afwp-accordion .afwp-accordion-title {
+  display: block;
+  font-weight: 700;
+  cursor: pointer; }
+
+.afwp-accordion .afwp-content {
+  display: none;
+  overflow: hidden; }
+
+.afwp-accordion.vertical .afwp-content.current {
+  display: block; }
+
+.afwp-accordion.vertical .afwp-accordion-title {
+  padding: 10px 40px 10px 10px; }
+
+.afwp-accordion.horizontal {
+  overflow: hidden;
+  height: auto; }
+  .afwp-accordion.horizontal .afwp-toggle-icon {
+    left: 0;
+    width: 100%;
+    height: 30px;
+    border-left: none;
+    border-bottom: 1px solid #dedede; }
+    .afwp-accordion.horizontal .afwp-toggle-icon:before {
+      padding: 0 4px;
+      line-height: 30px; }
+  .afwp-accordion.horizontal ul li {
+    float: left;
+    margin: 0 1px 1px 0;
+    padding: 0px; }
+  .afwp-accordion.horizontal .afwp-accordion-title {
+    height: auto;
+    padding: 0;
+    float: left;
+    width: initial;
+    overflow: hidden; }
+    .afwp-accordion.horizontal .afwp-accordion-title span {
+      width: 35px;
+      display: block;
+      padding: 10px 5px;
+      writing-mode: tb-rl;
+      -webkit-writing-mode: tb-rl;
+      -moz-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+      -o-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl; }
+  .afwp-accordion.horizontal .afwp-content {
+    display: none;
+    width: 0px;
+    border-left: 0; }
+    .afwp-accordion.horizontal .afwp-content.current {
+      display: inline-block;
+      /* Makes its work in FF */ }
+  .afwp-accordion.horizontal .afwp-accordion-title,
+  .afwp-accordion.horizontal .afwp-content {
+    transition: height 1s ease-out; }
+
+.afwp-accordion-list {
+  padding: 0;
+  margin: 0; }
+  .afwp-accordion-list:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.afwp-toggle-icon {
+  height: 100%;
+  width: 35px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: inherit;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  max-height: 40px;
+  border-left: 1px solid #dedede; }
+
+body .afwp-toggle-icon {
+  font-size: 16px; }
+
+/*====================================================
+------------- Accordion Theme Default ----------------
+=====================================================*/
+.afwp-theme-default .afwp-accordion-item-wrap {
+  padding: 0;
+  position: relative;
+  margin: 0 0 1px;
+  overflow: hidden;
+  border: 1px solid #e1e1e1; }
+
+.afwp-theme-default .afwp-post-link, .afwp-theme-default .afwp-accordion-title {
+  position: relative;
+  display: block;
+  padding: 10px 0 10px 1em;
+  margin: 0;
+  line-height: 1.4em;
+  cursor: pointer; }
+
+.afwp-theme-default .afwp-content {
+  border: 1px solid #e1e1e1; }
+
+.afwp-theme-default .vertical .afwp-accordion-item-wrap {
+  width: 100%; }
+
+.afwp-theme-default .horizontal .afwp-accordion-item-wrap {
+  border: none; }
+
+.afwp-theme-default .horizontal .afwp-accordion-title {
+  border: 1px solid #e1e1e1; }
+
+.afwp-theme-default .horizontal .afwp-content {
+  padding: 10px; }
+
+.afwp-theme-default .horizontal .afwp-post-link, .afwp-theme-default .horizontal .afwp-accordion-title {
+  padding-top: 30px; }
+
+/*====================================================
+-------------- Accordion Default ----------------------
+=====================================================*/
+.afwp-default .afwp-accordion-list {
+  border-bottom: 1px solid #dedede; }
+
+.afwp-default .afwp-accordion-item-wrap {
+  padding: 0;
+  border: none;
+  position: relative;
+  margin: 0 0 1px;
+  overflow: hidden; }
+
+.afwp-default .afwp-accordion-title {
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 10px 0 10px 1em;
+  margin: 0;
+  background: #006799;
+  font-weight: 600;
+  line-height: 1.4em;
+  cursor: pointer;
+  box-shadow: none; }
+  .afwp-default .afwp-accordion-title:hover, .afwp-default .afwp-accordion-title.current {
+    box-shadow: none;
+    background: #00a0d2;
+    color: #fff; }
+
+.afwp-default .afwp-content {
+  color: #fff;
+  background: #06c4ff; }
+
+.afwp-default .horizontal .afwp-accordion-title, .afwp-default .horizontal .afwp-post-link {
+  padding-top: 30px; }
+
+/*====================================================
+-------------- Accordion Template 1 ----------------------
+=====================================================*/
+.afwp-template-1 .afwp-toggle-icon {
+  color: #fff; }
+
+.afwp-template-1 .afwp-accordion-item-wrap {
+  padding: 0;
+  border: none;
+  position: relative;
+  margin: 0 0 1px;
+  color: white;
+  overflow: hidden; }
+
+.afwp-template-1 .afwp-post-link, .afwp-template-1 .afwp-accordion-title {
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 10px 0 10px 1em;
+  margin: 0;
+  background: #16a085;
+  font-weight: 600;
+  line-height: 1.4em;
+  cursor: pointer; }
+  .afwp-template-1 .afwp-post-link.current, .afwp-template-1 .afwp-post-link:hover, .afwp-template-1 .afwp-accordion-title.current, .afwp-template-1 .afwp-accordion-title:hover {
+    background: #09a06c; }
+
+.afwp-template-1 .afwp-content {
+  background: #1abc9c; }
+
+.afwp-template-1 .vertical .afwp-accordion-item-wrap {
+  width: 100%; }
+
+.afwp-template-1 .horizontal .afwp-accordion-title, .afwp-template-1 .horizontal .afwp-post-link {
+  padding-top: 30px; }
+
+/*====================================================
+-------------- Accordion Menu ----------------------
+=====================================================*/
+.afwp_accordion_nav_menu .menu-item {
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  border-top: 1px solid #dedede; }
+  .afwp_accordion_nav_menu .menu-item a {
+    margin: 0;
+    display: block;
+    line-height: 1.4em;
+    cursor: pointer;
+    box-shadow: none;
+    padding: 10px 0 10px 15px; }
+    .afwp_accordion_nav_menu .menu-item a:hover {
+      text-decoration: none;
+      box-shadow: none; }
+  .afwp_accordion_nav_menu .menu-item > ul, .afwp_accordion_nav_menu .menu-item ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0 !important; }
+  .afwp_accordion_nav_menu .menu-item > a {
+    padding-left: 15px; }
+  .afwp_accordion_nav_menu .menu-item .menu-item > a {
+    padding-left: 30px; }
+  .afwp_accordion_nav_menu .menu-item .menu-item .menu-item > a {
+    padding-left: 45px; }
+  .afwp_accordion_nav_menu .menu-item .menu-item .menu-item .menu-item > a {
+    padding-left: 60px; }
+  .afwp_accordion_nav_menu .menu-item .menu-item .menu-item .menu-item .menu-item > a {
+    padding-left: 75px; }
+
+.afwp_accordion_nav_menu .menu-item-has-children {
+  position: relative; }
+  .afwp_accordion_nav_menu .menu-item-has-children > ul {
+    display: none; }
+    .afwp_accordion_nav_menu .menu-item-has-children > ul > li > a {
+      padding-left: 10px; }
+  .afwp_accordion_nav_menu .menu-item-has-children > a {
+    padding-right: 35px; }
+
+.afwp_accordion_nav_menu .afwp-default .afwp-toggle-icon {
+  color: #fff;
+  border-left: 1px solid #fff; }
+
+.afwp_accordion_nav_menu .afwp-default .menu-item {
+  border-top: 1px solid #fff; }
+  .afwp_accordion_nav_menu .afwp-default .menu-item a {
+    color: #fff;
+    background: #006799; }
+    .afwp_accordion_nav_menu .afwp-default .menu-item a:hover {
+      color: #fff;
+      background: #00a0d2; }
+
+.afwp_accordion_nav_menu .afwp-default .current-menu-item > a {
+  color: #fff;
+  background: #00a0d2; }
+
+.afwp_accordion_nav_menu .afwp-template-1 .afwp-toggle-icon {
+  color: #fff;
+  border-left: 1px solid #fff; }
+
+.afwp_accordion_nav_menu .afwp-template-1 .menu-item {
+  border-top: 1px solid #fff; }
+  .afwp_accordion_nav_menu .afwp-template-1 .menu-item a {
+    color: #fff;
+    background: #16a085; }
+    .afwp_accordion_nav_menu .afwp-template-1 .menu-item a:hover {
+      color: #fff;
+      background: #09a06c; }
+
+.afwp_accordion_nav_menu .afwp-template-1 .current-menu-item > a {
+  color: #fff;
+  background: #09a06c; }
+
+.afwp_accordion_nav_menu .afwp-theme-default .afwp-accordion-list {
+  border-bottom: 1px solid #dedede; }
+
+/*====================================================
+------------- Tab Reset ----------------
+=====================================================*/
+.afwp-tab-template .afwp-tab {
+  overflow: hidden;
+  margin-bottom: 30px; }
+
+.afwp-tab-template .afwp-tab-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: #f2f2f2; }
+  .afwp-tab-template .afwp-tab-list:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both; }
+
+.afwp-tab-template .afwp-tab-item-wrap {
+  margin: 0 3px 3px 0; }
+
+.afwp-tab-template .afwp-tab-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #e1e1e1; }
+  .afwp-tab-template .afwp-tab-content.current {
+    display: block; }
+
+.afwp-tab-template .afwp-tab-title {
+  margin: 0;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  line-height: 1.4em;
+  border: 1px solid #e1e1e1; }
+  .afwp-tab-template .afwp-tab-title .afwp-tab-icon {
+    padding: 10px;
+    margin-right: -15px; }
+  .afwp-tab-template .afwp-tab-title .afwp-post-link {
+    color: inherit;
+    padding: 10px;
+    display: inline-block; }
+  .afwp-tab-template .afwp-tab-title:after {
+    display: none; }
+  .afwp-tab-template .afwp-tab-title.current, .afwp-tab-template .afwp-tab-title:hover {
+    background: #e1e1e1; }
+
+.afwp-tab-template .horizontal:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.afwp-tab-template .horizontal .afwp-tab-list {
+  width: 40%;
+  float: left; }
+
+.afwp-tab-template .horizontal .afwp-tab-content-wraper {
+  width: 60%;
+  float: left; }
+
+.afwp-tab-template .vertical .afwp-tab-title {
+  border-right: 1px solid #f2f2f2; }
+
+.afwp-tab-template .vertical .afwp-tab-item-wrap {
+  float: left; }
+
+.afwp-tab-template .vertical .afwp-tab-list {
+  width: 100%; }
+
+/*====================================================
+------------------- Tab Default ----------------------
+=====================================================*/
+.afwp-tab-template.afwp-tab-default .afwp-tab-title {
+  color: #fff;
+  background: #006799; }
+  .afwp-tab-template.afwp-tab-default .afwp-tab-title.current {
+    background: #00a0d2; }
+
+/*====================================================
+------------------- Tab Default ----------------------
+=====================================================*/
+.afwp-tab-template.afwp-tab-template-1 .afwp-tab-title {
+  color: #fff;
+  background: #16a085; }
+  .afwp-tab-template.afwp-tab-template-1 .afwp-tab-title.current, .afwp-tab-template.afwp-tab-template-1 .afwp-tab-title:hover {
+    background: #09a06c; }
+
+.afwp-tab-template.afwp-tab-template-1 .afwp-tab-content {
+  background: #1abc9c;
+  color: #fff; }
+
+/*# sourceMappingURL=afwp-accordion-public.css.map */

@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-02T09:11:54+00:00\n"
+"Last-Translator: Mauro <faveromauro@hotmail.com>\n"
+"Last-Translator: ManuelIzziL. <manuel.izzi@vigevanofoto.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Tema 01"
+
+msgid "Theme 02"
+msgstr "Tema 02"
+
+msgid "Theme 03"
+msgstr "Tema 03"
+
+msgid "Theme 04"
+msgstr "Tema 04"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Il tema contiene (cioè nel file %s) un riferimento hardcoded alla libreria javascript jQuery."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "Questo riferimento potrebbe rompersi il plugin. Quindi, se il plugin non funziona, si consiglia di eliminare questo riferimento o spostarla subito dopo la dichiarazione del %s."
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Quali sono le dimensioni ritagliate dell&#039;immagine ingrandita?"
+
+msgid "Max width:"
+msgstr "Larghezza massima:"
+
+msgid "Max height:"
+msgstr "Altezza massima:"
+
+msgid "Do you want to clip to browser size:"
+msgstr "Vuoi ritagliare l&#039;immagine alla dimensione della finestra?"
+
+msgid "What is the text for the frontend?"
+msgstr "Qual è il testo per il front-end?"
+
+msgid "Previous:"
+msgstr "Precedente:"
+
+msgid "Next:"
+msgstr "Successivo:"
+
+msgid "Close:"
+msgstr "Chiudi:"
+
+msgid "Play:"
+msgstr "Play:"
+
+msgid "Pause:"
+msgstr "Pausa:"
+
+msgid "The image counter:"
+msgstr "Il contatore delle foto:"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "La %s sara &#039;sostituito con l&#039;indice delle immagini e %s con il numero totale di immagini nella pagina."
+
+msgid "What is the theme?"
+msgstr "Qual è il tema?"
+
+msgid "Choose the theme:"
+msgstr "Scegliere il tema:"
+
+msgid "Theme 01 is : %s."
+msgstr "Tema 01 è: %s."
+
+msgid "Theme 02 is : %s."
+msgstr "Tema 02 è: %s."
+
+msgid "Theme 03 is : %s."
+msgstr "Tema 03 è: %s."
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "Tema 04 è: %s (creato da %s)."
+
+msgid "Show description text"
+msgstr "Visualizza la descrizione del testo"
+
+msgid "Show the title of the image:"
+msgstr "Mostra il titolo dell&#039;immagine:"
+
+msgid "Show the alternative text of the image:"
+msgstr "Visualizzare il testo alternativo dell&#039;immagine:"
+
+msgid "What are the other parameters?"
+msgstr "Quali sono gli altri parametri?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Tempo di transizione, se la presentazione è su:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Auto-avviare la presentazione, quando lanciato:"
+
+msgid "The opacity of the background:"
+msgstr "L&#039;opacità dello sfondo:"
+
+msgid "Advanced parameters?"
+msgstr "I parametri avanzati?"
+
+msgid "Disable the navigation buttons on images:"
+msgstr "Disabilitare i pulsanti di navigazione sulle immagini"
+
+msgid "Disable click on the image for next (it will then close the slideshow):"
+msgstr "Disattivare clicca sull&#039;immagine per il prossimo (che sarà quindi chiudere la presentazione):"
+
+msgid "Disable the slideshow buttons on images:"
+msgstr "Disabilitare i pulsanti di presentazione su immagini:"
+
+msgid "List of page exclusions (regular expressions):"
+msgstr "Lista delle pagine escluse:"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "Per esempio, si possono escludere pagina con URL del tipo %s impostando questa opzione per %s. Si prega di aggiungere uno espressioni regolari per linea"
+
+msgid "You may also exclude this same page by setting this option to %s"
+msgstr "Puoi anche escludere questa stessa pagina settando questa opzione %s"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "In aggiunta, puoi settare questa opzione %s e a %s per escludere l&#039;homepage"
+
+msgid "Disable if the user uses mobile terminal:"
+msgstr "Disabilita se l&#039;utente usa un cellulare:"
+
+msgid "Parameters"
+msgstr "Parametri"
+
+msgid "This plugin allows a dynamic zoom on the images."
+msgstr "Questo plugin permette uno zoom dinamico delle immagini"
+
+msgid "All images in your pages/posts like %s will be zoomable."
+msgstr "Tutte le immagini nella tua pagina/post %s possono essere zoommabili"
+
+msgid "Purpose of that plugin"
+msgstr "Obiettivo di questo plugin"
+
+msgid "If you want to exclude one specific image, please modify the HTML code so that this image is like that: %s or %s."
+msgstr "Se vuoi escludere una specifica immagine, prego modifica il codice HTML in modo che l&#039;immagine sarà così: %s o %s"
+
+msgid "Exclude an image"
+msgstr "Escludi un&#039;immagine"
+
+msgid "If you want to exclude one specific page, please use the advanced option in the configuration tab"
+msgstr "Se vuoi escludere una specifica immagine, usa l&#039;opzione avanzata nel tab di configurazione"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to portfolio. Please add one regular expressions by line."
+msgstr "Per esempio, puoi escludere pagine con URL del tipo %s impostando questa opzione per portfolio. Si prega di aggiungere espressioni regolari per linea."
+
+msgid "You may also exclude this same page by setting this option to %s."
+msgstr "Puoi anche escludere la stessa pagina settando l&#039;opzione su %s."
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page."
+msgstr "Inoltre è possibile settare quest&#039;opzione %s e %s per l&#039;escludere l&#039;homepage."
+
+msgid "Exclude a page"
+msgstr "Escludi una pagina"
+
+msgid "One of the most probable reason that the plugin does not work is that there is a conflict with your theme of one of your plugins."
+msgstr "Una delle più probabili ragioni del malfunzionamento del plugin è un conflitto tra il tuo tema ed uno dei tuoi plugin."
+
+msgid "Before contacting me, please test deactivating each plugin one by one to see if it solve the problem and change the theme by the default one."
+msgstr "Prima di contattarmi, per cortesia disattiva i plugin uno alla volta per verificare che il problema si risolva e cambia il tema di ognuno a quello di default."
+
+msgid "Indeed, most of the time the %s library is not loaded correctly."
+msgstr "Infatti, la maggior parte delle volte la %s libreria non è caricata correttamente."
+
+msgid "I cannot give you a simple way to correct it!"
+msgstr "Non posso fornirti una soluzione semplice per correggere il problema!"
+
+msgid "The plugin does not work"
+msgstr "Il plugin non funziona."
+
+msgid "How To"
+msgstr "Come"
+
+msgid "Manage translations"
+msgstr "Gestione traduzioni"
+
+msgid "Give feedback"
+msgstr "Dare un feedback"
+
+msgid "Other plugins"
+msgstr "Altri plugin"
+

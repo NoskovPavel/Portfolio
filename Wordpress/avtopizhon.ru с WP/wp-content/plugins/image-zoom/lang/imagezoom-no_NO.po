@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-12-04T22:31:33+00:00\n"
+"Last-Translator: SimenEggen <simen@simeneggen.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Norwegian-Nynorsk\n"
+"X-Poedit-Country: Norway\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Tema #1"
+
+msgid "Theme 02"
+msgstr "Tema #2"
+
+msgid "Theme 03"
+msgstr "Tema #3"
+
+msgid "Theme 04"
+msgstr "Tema #4"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Ditt tema inneholder (eks. i %s fil) en hardkodet referanse til jQuery javascript biblioteket."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "Denne referansen kan bryte utvidelsen. Så hvis utvidelsen ikke fungerer, kan du enten slette denne referansen eller flytte den rett etter %s erklæringen."
+
+msgid "This plugin allows a dynamic zoom on the images (based on the colorbox javascript library)"
+msgstr "Denne utvidelsen gjør det mulig for en dynamisk zoom på bildene (basert på ColorBox javascript biblioteket)"
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Hva er de avkuttede dimensjonene på det forstørrede bildet?"
+
+msgid "Max width:"
+msgstr "Maks bredde:"
+
+msgid "Max height:"
+msgstr "Maks høyde:"
+
+msgid "What is the text for the frontend?"
+msgstr "Hva er teksten for frontend?"
+
+msgid "Previous:"
+msgstr "Forrige:"
+
+msgid "Next:"
+msgstr "Neste:"
+
+msgid "Close:"
+msgstr "Lukk:"
+
+msgid "Play:"
+msgstr "Spill av:"
+
+msgid "Pause:"
+msgstr "Pause:"
+
+msgid "The image counter:"
+msgstr "Bildevisninger:"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "%s vil bli erstattet med indeksen på bildet og %s med det totale antall bilder på siden."
+
+msgid "What is the theme?"
+msgstr "Hva er temaet?"
+
+msgid "Choose the theme:"
+msgstr "Velg tema:"
+
+msgid "Theme 01 is : %s."
+msgstr "Tema #1 er: %s"
+
+msgid "Theme 02 is : %s."
+msgstr "Tema #2 er: %s"
+
+msgid "Theme 03 is : %s."
+msgstr "Tema #3 er: %s"
+
+msgid "Theme 04 is : %s (created by %s)."
+msgstr "Tema #4 er: %s (laget av %s)."
+
+msgid "Show description text"
+msgstr "Vis beskrivelse"
+
+msgid "Show the title of the image:"
+msgstr "Vis tittel på bilde:"
+
+msgid "Show the alternative text of the image:"
+msgstr "Vis alternativ tekst på bilde:"
+
+msgid "What are the other parameters?"
+msgstr "Hva er di andre parameterne?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Overgangstid på slideshow er:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Autostart slideshow med en gang:"
+
+msgid "The opacity of the background:"
+msgstr "Gjennomsiktighet på bakgrunn"
+
+msgid "Advanced parameters?"
+msgstr "Avanserte parametere?"
+
+msgid "Disable the navigation buttons on images:"
+msgstr "Skru av navigerings knappene på bildet:"
+
+msgid "Disable click on the image for next (it will then close the slideshow):"
+msgstr "Skru av klikk-på bildet for neste (vil avslutte slideshow)."
+
+msgid "Disable the slideshow buttons on images:"
+msgstr "Skru av slideshow knappene på bildet:"
+
+msgid "List of page exclusions:"
+msgstr "Liste over sideunntak"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "For eksempel kan du utelukke sider med URL som %s ved å sette dette alternativet til %s. Vennligst legg inn et regulære uttrykk for linje."
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "I tillegg kan du sette dette alternativet til %s og %s for å utelukke hjemmesiden."
+
+msgid "Parameters"
+msgstr "Parametere"
+
+msgid "Manage translations"
+msgstr "Administrer oversettelser"
+
+msgid "Give feedback"
+msgstr "Gi tilbakemelding"
+
+msgid "Other plugins"
+msgstr "Andre utvidelser"
+
