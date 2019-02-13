@@ -39,7 +39,8 @@ if ($_POST) {
 require_once $_SERVER['DOCUMENT_ROOT'] . '/template/header.php';
 
 ?> 
-<h1>Сайт</h1> 
+<h1>Сайт</h1>
+<p>Новая ветка</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim mollitia nostrum labore, repellat dolorem cumque doloribus ipsum voluptatum tenetur impedit! Repudiandae ab, dolor minima beatae sed fuga. Sequi numquam, consectetur.</p>	   
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	<tr>
